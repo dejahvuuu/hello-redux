@@ -1,7 +1,5 @@
-import reducer from '../reducers';
 import { createStore } from 'redux';
+import reducer from '../reducers';
 
-const initialState = { tech: 'Reacts' };
-const store = createStore(reducer, initialState);
-
-export default store;
+const initialState = { tech: 'Alberto' };
+export const store = createStore(reducer, initialState);
